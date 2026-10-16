@@ -1,0 +1,16 @@
+project_name      = "cloudledger"
+environment       = "dev"
+aws_region        = "us-east-1"
+aws_account_id    = "123456789012"
+vpc_cidr          = "10.0.0.0/16"
+db_instance_class = "db.t4g.micro"
+db_username       = "cloudledger_admin"
+db_password       = "ReplaceWithStrongPassword!2026"
+enable_cur_bucket = true
+
+tags = {
+  Project     = "CloudLedger"
+  ManagedBy   = "Terraform"
+  Environment = "AcademicLab"
+  Course      = "CS401-Cloud"
+}
